@@ -600,3 +600,47 @@ li.cc:hover ul.list{
 input[type="email"]::placeholder {
     padding-left: 10px;
 }
+.larrow{
+    position: absolute;
+    /* color: white; */
+    top: 145px;
+    left: -125px;
+    padding: 5px 10px;
+    /* text-align: center; */
+    padding-bottom:8px ;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+.rrr{
+    position: relative;
+    top: 0px;
+}
+.larrow:hover .rrr{
+    /* padding-left:5px; */
+    /* /* position: absolute; */
+    left: -10px;
+    text-align: start;
+}
+.rarrow{
+    position: absolute;
+    /* color: white; */
+    top: 145px;
+    right: -125px;
+    padding: 5px 10px;
+    /* text-align: center; */
+    padding-bottom:8px ;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+.lll{
+    position: relative;
+    top: 0px;
+}
+.rarrow:hover .lll{
+    /* padding-left:5px; */
+    /* /* position: absolute; */
+    right: -10px;
+    text-align: start;
+}
